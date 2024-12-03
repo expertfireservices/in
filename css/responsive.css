@@ -87,11 +87,12 @@
         overflow-x: hidden; 
     }
     
-    .logo{
-        height: 100px;
+    header .logo a img {
         width: 100px;
+        height: 100px;
         object-fit: contain;
-    }
+      }
+      
 }
 
 @media (max-width: 767px){
