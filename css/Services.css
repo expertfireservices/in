@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*-------- impor utils.css------------*/
+@import url(./utils.css);
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800&display=swap');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h1, h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+p {
+  margin: 10px 0;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container */
+.privacy-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+.privacy-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.privacy-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #d35400;
+}
+
+.privacy-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+/* Wrapper */
+.privacy-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Section Styles */
+.privacy-section {
+  padding: 15px 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  background-color: #fdfefe;
+  transition: all 0.3s ease;
+}
+
+.privacy-section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.privacy-section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2980b9;
+}
+
+.privacy-section p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+/* Divider */
+.privacy-section:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .privacy-container {
+    padding: 15px 10px;
+  }
+
+  .privacy-header h1 {
+    font-size: 2rem;
+  }
+
+  .privacy-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .privacy-section p {
+    font-size: 0.95rem;
+  }
+}
+
