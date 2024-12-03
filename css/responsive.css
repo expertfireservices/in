@@ -13,6 +13,12 @@
     .text-bg span {
         font-size: 41px;
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -44,6 +50,12 @@
     .laptop_box {
         margin-right: 0px;
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
@@ -61,6 +73,12 @@
         padding-top: -50px;
         padding-bottom: -50px;
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (min-width: 400px) and (max-width: 420px){
@@ -123,6 +141,12 @@
         padding: 0;
         overflow-x: hidden; 
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -181,6 +205,12 @@
     .about_us li {
         margin-bottom: 30px;
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -269,6 +299,12 @@
     .d_none {
         display: none;
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 }
 
 @media (max-width: 575px) {
@@ -384,5 +420,11 @@
         }
         
     }
+
+    header .logo a img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 
 }
