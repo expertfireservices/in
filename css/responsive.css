@@ -119,7 +119,7 @@
     }
   }
 
-@media (min-width: 420px) and (max-width: 450px){
+@media (min-width: 420px) and (max-width: 765px){
     .img,.banner-img {
         width: 300px; 
         max-width: 100%;  
